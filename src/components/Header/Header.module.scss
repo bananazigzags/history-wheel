@@ -1,0 +1,21 @@
+.header {
+  font-weight: 700;
+  color: #42567A;
+  margin-bottom: 10vh;
+  border-width: 5px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to bottom, 
+      var(--primary-color), 
+      var(--secondary-color)
+    ) 0 0 0 1;
+
+  h1 {
+    font-size: 56px;
+    line-height: 120%;
+    padding-left: 4vw;
+    width: 5.5vw;
+    color: var(--primary-dark)
+  }
+}

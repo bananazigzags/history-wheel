@@ -1,0 +1,41 @@
+.App {
+  margin: 0 10vw 0 17vw;
+  padding: 16vh 0 10vh 0;
+  position: relative;
+}
+
+.events {
+  margin: 0 80px;
+}
+
+.line {
+  position: absolute;
+  background-color: var(--primary-dark);
+  opacity: 0.1;
+}
+
+.vertical {
+  top: 0;
+  width: 1px;
+  height: 100vh;
+}
+
+.vertical-center {
+  left: 50%;
+}
+
+.horizontal-center {
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+  background-color: var(--primary-dark);
+}

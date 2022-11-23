@@ -1,0 +1,19 @@
+.dates {
+  position: relative;
+  font-weight: 700;
+  font-size: 200px;
+  line-height: 160px;
+  letter-spacing: -0.02em;
+  display: flex;
+  gap: 5vw;
+  margin: 0 auto 14vh auto;
+  justify-content: center;
+}
+
+.from {
+  color: #5D5FEF;
+}
+
+.to {
+  color: var(--secondary-color);
+}
